@@ -1,10 +1,22 @@
 body {
-    display: flex;
+   padding-left: 16px;
+   padding-right: 16px;
 }
 
 .top {
    background-color: #1f2937;
-   display: flex;
+}
+
+.content {
+    padding-top: 64px;
+    display: flex;
+    gap: 196px;
+    margin-left: 48px;
+    padding-bottom: 48px;
+}
+
+.texts {
+    align-items: flex-start;
 }
 
 .main-text {
@@ -20,9 +32,35 @@ body {
 
 .header {
     display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    align-self: flex-end;
+    display: flex;
+    margin: 18px;
+    padding-right: 80px;
+    gap: 16px;
 }
 
 #header-logo {
-    size: 8px;
+    align-self: flex-start;
     padding: 8px;
+    margin-left: 20px;
+    border-radius: 50%;
+    height: 72px;
+    width: auto;
+}
+
+#panda {
+    align-self: flex-end;
+    padding-top: 50px;
+}
+
+.but {
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 100px;
+    color: #e5e7eb;
+    font-weight: 400;
 }
